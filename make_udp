@@ -1,0 +1,4 @@
+UDP.o: 
+	gcc -Wall -o serv_udp UDP_final.c 
+clean:
+	rm -rf serv

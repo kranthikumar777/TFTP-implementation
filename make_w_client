@@ -1,0 +1,5 @@
+UDP.o: 
+	gcc -Wall -o serv_udp UDP_final.c
+	gcc -Wall -o client_udp TFTPclient.c -include tftpx.h client.h 
+clean:
+	rm -rf serv
